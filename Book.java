@@ -13,6 +13,10 @@ public class book{
     public void setYear(int year){
         this.year = year;
     }
+    public void setColor(String color){
+        this.color = color;
+    }
+
     // Creating getter methods
     public int getYear(){
         return year;
