@@ -1,3 +1,5 @@
+// Author: Johnson Adebayo
+// Date: 15/05/19
 import java.util.Scanner;
 
 public class PrimeCheck{
