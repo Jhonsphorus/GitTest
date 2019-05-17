@@ -6,13 +6,20 @@
 import java.util.Scanner;
 
 public class CheckOperator2{
+
+	static double power(double input1, double input2){
+		double total = input1;
+		for(int i=1; i<=input2-1; i++){
+			total = total * input2;
+		}
+		return total;
+
+	}
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
         System.out.println("Input operator: ");
         String operator1 = input.nextLine();
-    
-        
         System.out.println("Input first number: ");
         double num1 = input.nextDouble();
 
@@ -50,6 +57,9 @@ public class CheckOperator2{
             case "^":
             System.out.println("Power: " + num1 + " ^ " + num2 +" = " + f);
             break;
+            case "**":
+		 System.out.println(power(num1, num2));
+	    break;
         }
     }
 }
