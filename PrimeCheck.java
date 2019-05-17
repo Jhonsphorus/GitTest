@@ -23,7 +23,6 @@ public class PrimeCheck{
                 System.out.println(num1 + " is a Prime number");
                 break;
             }
-
         }
     }
 }
